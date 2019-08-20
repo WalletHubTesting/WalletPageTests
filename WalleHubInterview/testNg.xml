@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="WalletHub Automation Tests" thread-count="1" verbose="1">
+
+	<test name="Trident">
+		<parameter name="selenium.host" value="localhost" />
+		<parameter name="selenium.port" value="3737" />
+
+		<classes>
+			<class name="com.wallethub.tests.WalletHubPagesTests" />
+			
+
+		</classes>
+	</test>
+
+</suite>
+

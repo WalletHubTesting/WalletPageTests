@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="WalletHub Automation Tests" duration-ms="53155" started-at="2019-08-20T09:14:09Z" finished-at="2019-08-20T09:15:02Z">
+    <groups>
+    </groups>
+    <test name="Trident" duration-ms="53155" started-at="2019-08-20T09:14:09Z" finished-at="2019-08-20T09:15:02Z">
+      <class name="com.wallethub.tests.WalletHubPagesTests">
+        <test-method status="PASS" signature="baseSetUp()[pri:0, instance:com.wallethub.tests.WalletHubPagesTests@6a4f787b]" name="baseSetUp" is-config="true" duration-ms="18218" started-at="2019-08-20T09:14:09Z" finished-at="2019-08-20T09:14:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseSetUp -->
+        <test-method status="PASS" signature="preSetUp()[pri:0, instance:com.wallethub.tests.WalletHubPagesTests@6a4f787b]" name="preSetUp" is-config="true" duration-ms="16197" started-at="2019-08-20T09:14:27Z" finished-at="2019-08-20T09:14:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetUp -->
+        <test-method status="PASS" signature="walletHub()[pri:1, instance:com.wallethub.tests.WalletHubPagesTests@6a4f787b]" name="walletHub" duration-ms="15489" started-at="2019-08-20T09:14:43Z" description=" Scenario 1 : Wallet Hub Test 2" finished-at="2019-08-20T09:14:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- walletHub -->
+        <test-method status="PASS" signature="postSetUp()[pri:0, instance:com.wallethub.tests.WalletHubPagesTests@6a4f787b]" name="postSetUp" is-config="true" duration-ms="1959" started-at="2019-08-20T09:14:59Z" finished-at="2019-08-20T09:15:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postSetUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.wallethub.tests.WalletHubPagesTests@6a4f787b]" name="tearDown" is-config="true" duration-ms="1241" started-at="2019-08-20T09:15:01Z" finished-at="2019-08-20T09:15:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.wallethub.tests.WalletHubPagesTests -->
+    </test> <!-- Trident -->
+  </suite> <!-- WalletHub Automation Tests -->
+</testng-results>
